@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
-import Button from '@material-ui/core/Button';
 import './App.css';
-import Typography from '@material-ui/core/Typography';
+import HomePage from './homePage.js';
 
 class App extends Component {
   constructor(props) {
@@ -36,11 +35,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1 id="welcome">Welcome to the World of Coffee! (basically the same as any other world just with coffee.)</h1>
-        <div className="earth"></div>
-        <Button variant="contained" color="beige">
-          Enter Coffee World!
-        </Button>
+        <HomePage />
       </div>
     );
   }
