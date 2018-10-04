@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
+import Button from '@material-ui/core/Button';
 import './App.css';
+import Typography from '@material-ui/core/Typography';
 
 class App extends Component {
   constructor(props) {
@@ -34,9 +36,11 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Welcome to the World of Coffee! (basically the same as any other world just with coffee.)</h1>
-        <img id="spinningEarth" src="../imgs/earthMap.jpg" alt="spinning shit" />
-        <a href="#" ><h3 id="enterCoffeeWorld">Click the world to enter.</h3></a>
+        <h1 id="welcome">Welcome to the World of Coffee! (basically the same as any other world just with coffee.)</h1>
+        <div className="earth"></div>
+        <Button variant="contained" color="beige">
+          Enter Coffee World!
+        </Button>
       </div>
     );
   }
