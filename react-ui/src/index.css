@@ -1,5 +1,11 @@
-body {
+body, html {
+  height: 100%;
   margin: 0;
-  padding: 0;
+  padding-bottom: 20px;
   font-family: sans-serif;
+  text-align: center;
+  background-image: url('./imgs/hands-holding-coffee-beans_23-2147671424.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
