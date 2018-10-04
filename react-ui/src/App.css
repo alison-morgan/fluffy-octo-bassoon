@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+#spinningEarth {
+  position: absolute;
+  top: 25%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 415px;
+  height: 415px;
+  border-radius: 50%;
+  box-shadow: 1px 1px 1px 1px #000 Inset, 1px 1px 1px 1px #000;
+  animation: spin 20s linear alternate infinite;
+}
+
+@keyframes spinningEarth {
+  100%{
+    background-position: 100%
+  }
+}
